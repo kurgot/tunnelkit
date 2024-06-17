@@ -18,15 +18,6 @@
           "revision": "2c039501d6eeb4d4cd4aec4a8d884ad28862e044",
           "version": "1.9.5"
         }
-      },
-      {
-        "package": "WireGuardKit",
-        "repositoryURL": "https://github.com/rubanovdev/amneziawg-apple",
-        "state": {
-          "branch": master,
-          "revision": null,
-          "version": null
-        }
       }
     ]
   },

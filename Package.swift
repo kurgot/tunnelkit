@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "TunnelKit",
     platforms: [
-        .iOS(.v12), .macOS(.v10_14)
+        .iOS(.v13), .macOS(.v10_15)
     ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
@@ -41,6 +41,7 @@ let package = Package(
         .package(url: "https://github.com/SwiftyBeaver/SwiftyBeaver", from: "1.9.0"),
         .package(url: "https://github.com/passepartoutvpn/openssl-apple", from: "1.1.11700"),
 //        .package(name: "WireGuardKit", url: "https://git.zx2c4.com/wireguard-apple", .exact("1.0.15-26"))
+        .package(url: "https://github.com/rubanovdev/amneziawg-apple", branch: "master")
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
